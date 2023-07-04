@@ -1,0 +1,1 @@
+Layout adaptive site Clubweb.
