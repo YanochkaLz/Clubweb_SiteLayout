@@ -1,20 +1,20 @@
-@import url(/style/normalize.css);
+@import url(./normalize.css);
 
 @font-face {
     font-family: 'Aeonik-700';
-    src: url('/fonts/AeonikTRIAL-Bold.otf');
+    src: url('../fonts/AeonikTRIAL-Bold.otf');
     font-weight: 700;
 }
 
 @font-face {
     font-family: 'Aeonik-300';
-    src: url('/fonts/AeonikTRIAL-Light.otf');
+    src: url('../fonts/AeonikTRIAL-Light.otf');
     font-weight: 300;
 }
 
 @font-face {
     font-family: 'Aeonik-400';
-    src: url('/fonts/AeonikTRIAL-Regular.otf');
+    src: url('../fonts/AeonikTRIAL-Regular.otf');
     font-weight: 400;
 }
 
@@ -169,7 +169,7 @@ body {
 }
 
 .header-menu {
-    background-image: url(/assets/Menu.png);
+    background-image: url(../assets/Menu.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -267,7 +267,7 @@ body {
 
 .web-card::after {
     content: "";
-    background-image: url(/assets/Icon_cards/SI.png), url(/assets/Icon_cards/SI.png);
+    background-image: url(../assets/Icon_cards/SI.png), url(../assets/Icon_cards/SI.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: left, right;
@@ -418,27 +418,27 @@ body {
 }
 
 .developer:nth-child(1) {
-    background-image: url(/assets/Featured_dev/1.png);
+    background-image: url(../assets/Featured_dev/1.png);
 }
 
 .developer:nth-child(2) {
-    background-image: url(/assets/Featured_dev/2.png);
+    background-image: url(../assets/Featured_dev/2.png);
 }
 
 .developer:nth-child(3) {
-    background-image: url(/assets/Featured_dev/3.png);
+    background-image: url(../assets/Featured_dev/3.png);
 }
 
 .developer:nth-child(4) {
-    background-image: url(/assets/Featured_dev/4.png);
+    background-image: url(../assets/Featured_dev/4.png);
 }
 
 .developer:nth-child(5) {
-    background-image: url(/assets/Featured_dev/5.png);
+    background-image: url(../assets/Featured_dev/5.png);
 }
 
 .developer:nth-child(6) {
-    background-image: url(/assets/Featured_dev/6.png);
+    background-image: url(../assets/Featured_dev/6.png);
 }
 
 .developer-info {
@@ -545,7 +545,7 @@ body {
 
 .enjoy {
     position: relative;
-    background-image: url(/assets/Main2.png);
+    background-image: url(../assets/Main2.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
